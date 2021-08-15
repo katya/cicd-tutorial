@@ -7,7 +7,7 @@ app.get("/env", (req, res) => {
   res.send(process.env);
 });
 app.get("/", (req, res) => {
-  res.send(process.env.MESSAGE || "HELLO Katechka");
+  res.send(process.env.MESSAGE || "HELLO World!!!!");
 });
 
 app.listen(port, () => {
